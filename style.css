@@ -63,11 +63,19 @@ button {
     
 }
 
-.style_red, .style_black::after {
+.style_red::after {
+    content: "]";
+}
+    
+.style_black::after {
     content: "]";
 }
 
-.style_red, .style_black::before {
+.style_red::before {
+    content: "[";
+}
+
+.style_black::before {
     content: "[";
 }
 
